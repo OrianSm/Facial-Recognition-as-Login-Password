@@ -1,0 +1,159 @@
+body {
+    background-color: #fcfcfc;
+    color: #007fb5;
+    
+}
+
+/*main {
+    margin-top: 5%;
+    border: 1px rgba(0, 0, 0, 0.11) solid;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    padding: 15px;
+    background-color: #ffffff5e;
+     color: #007fb5;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}*/
+#banner{
+    width:99%;
+}
+
+.info {
+    border-radius: 2%;
+    text-align: left;
+    width: 70%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.Signin {
+    width: 83%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.Signin:hover {
+    background-color: #0077ff;
+}
+
+
+.about {
+    text-align: end;
+}
+
+@media only screen and (min-width: 800px) {
+    main {
+        margin: auto;
+        margin-top: 5%;
+        border: 1px rgba(0, 0, 0, 0.185) solid;
+        border-radius: 3px;
+        width: 70%;
+        height: 330px;
+        padding: 15px;
+        background-color: #ffffff1c;
+        text-align: center;
+    }
+
+    footer {
+        margin: auto;
+        border: 1px rgba(0, 0, 0, 0.185) solid;
+        border-radius: 3px;
+        width: 70%;
+        height: 60px;
+        padding: 15px;
+        background-color: #ffffff1c;
+        text-align: center;
+    }
+
+    .banner {
+
+        text-align: center;
+        font-style: italic;
+        margin: auto;
+        width: 60%;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px #ccc;
+        font-size: medium;
+
+    }
+
+    form {
+        margin: auto;
+    }
+
+    .info {
+        border-radius: 2%;
+        text-align: left;
+        margin: auto;
+        margin-top: 8%;
+        width: 60%;
+        background-color: #f7f7f7d5;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+    }
+
+    .info:focus {
+        outline: none;
+        box-shadow: 0 0 0 1px #ccc;
+
+    }
+
+    .Signin {
+        width: 64%;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #2a608f;
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        font-size: medium;
+        border: none;
+        cursor: pointer;
+    }
+
+    .Signin:hover {
+        background-color: rgb(202, 195, 178);
+    }
+
+    .s1 {
+        position: relative;
+        left: 40%;
+    }
+
+    .Slink {
+        margin: auto;
+    }
+
+
+    a {
+        color: rgb(255, 230, 161);
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(82, 186, 247);
+    }
+
+    a:active {
+        color: rgb(40, 194, 255);
+    }
+
+    .about {
+        text-align: center;
+    }
+}

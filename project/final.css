@@ -1,0 +1,54 @@
+p {
+    font-size: large;
+}
+
+
+body {
+    background-color: #fbfbfb;
+}
+
+#logo {
+    height: 110px;
+    width: 100%;
+}
+
+
+
+.Finalmain {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    margin-top: 2%;
+    height: auto;
+    width: 80%;
+    color: #007fb5;
+    background-color: #fbfbfb;
+    font-style: bold;
+
+    transform: rotate(10deg);
+    transition: all 2s ease-in-out;
+
+
+}
+
+#names {
+
+    margin: auto;
+    width: 20%;
+    height: auto;
+    text-align: left;
+
+
+}
+
+
+#List {
+    list-style-type: disc;
+    list-style-position: inside;
+
+}
+
+.Finalmain:hover {
+    transform: rotate(0deg);
+}
